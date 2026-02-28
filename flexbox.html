@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox page</title>
+    <link rel="stylesheet" href="A2style.css">
+</head>
+<body>
+
+    <section id="home">
+        <h1>Welcome to my site</h1>
+        <h3>A simple overview of my journey & services.</h3>
+    </section>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <p>This is a simple site for solving the second assignment and also tell you a bit more about the services I can provide. I am someone who after my student days stumbled into HR and then stumbled into project management and then did a big tumble into product management.</p>
+    </section>
+    
+    <section id="services" class="columns">
+        <div class="column">
+            <h3>HR Tech</h3>
+            <p>With 20 years of experience within HR and HR Tech, I can provide insight into the Nordic HR Tech space.</p>
+        </div>
+   
+        <div class="column">
+            <h3>Product strategy</h3>
+            <p>If you are struggling with your product vision and product strategy, I can help you with simple tools and frameworks.</p>
+        </div>     
+        
+        <div class="column">
+            <h3>Storytelling</h3>
+            <p>The importance of storytelling can not be overstated. To get buy-in from key stakeholders this is crucial.</p>
+        </div>
+    </section>
+
+    
+    <div class="intro-text">
+        <p>I am a product person dedicated to creating products that customers love and that bring them value by either simplifying their everyday or creating solutions that create better user experiences.</p>
+    </div>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+        <h4>Contact</h4>
+        <p>Fill out form to learn more about my services.</p>
+    </section>
+   
+    <form>
+        <div class="field">
+            <label for="Name">Name</label>
+            <input type="text" id="Name" name="Name" required>
+        </div>
+        <div class="field">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="field">
+            <label for="comment">Message</label>
+            <textarea id="comment" name="comment"></textarea>
+        </div>
+        <button type="submit">Send</button>
+    </form>
+   
+</body>
+</html>
